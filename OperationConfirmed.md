@@ -1,0 +1,37 @@
+| 対応状況 | サイト名 | カテゴリー対応 |
+| :---: | :--- | :---: |
+| COMPLETE | さなボタン | NO |
+| COMPLETE | さなボタン(2) | YES |
+| COMPLETE | はねるボタン | YES |
+| COMPLETE | 宇志海ボタン | --- |
+| COMPLETE | 美兎ボタン | YES |
+| COMPLETE | 剣持ボタン | --- |
+| COMPLETE | まぐろなボタン | YES |
+| COMPLETE | 竹花ノートボタン | YES |
+| COMPLETE | りむとまきボタン | YES |
+| COMPLETE | 家長ボタン | YES |
+| COMPLETE | 鈴谷ボタン | --- |
+| COMPLETE | 霞ボタン | --- |
+| COMPLETE | 叶ボタン | NO |
+| COMPLETE | 葛葉ボタン | NO |
+| COMPLETE | 緑仙ボタン | --- |
+| COMPLETE | 卯月ボタン | NO |
+| COMPLETE | 鷹宮リオンボタン | YES |
+| COMPLETE | クレアさんボタン | --- |
+| COMPLETE | でびでび・でびるボタン | YES |
+| COMPLETE | オニャンコポンぼたん | NO |
+| COMPLETE | 兎鞠まりボタン | YES |
+| COMPLETE | 宗谷いちかボタン | NO |
+| COMPLETE | ひなこボタン | NO |
+| COMPLETE | 由持ボタン | --- |
+| COMPLETE | ヤミクモボタン | --- |
+| NONE | タロ又ボタン | --- |
+| NONE | ROBOTTOボタン | --- |
+| NONE | リリボタン | --- |
+| NONE | 243ボタン | --- |
+| NONE | 物述ボタン | --- |
+| NONE | 森中ボタン | --- |
+| NONE | 勝くんボタン | --- |
+| NONE | シロボタン | --- |
+
+COMPLETE…対応済み / SCHEDULED…対応予定 / NONE…対応なし

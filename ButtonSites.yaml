@@ -1,0 +1,225 @@
+sites:
+  - name: SANA
+    protocol: https
+    host: sanabutton.ojaru.jp
+    type: DEFAULT
+    layer: ""
+    soundLayer: ""
+    jsonLocation: ""
+    categorySupport: false
+
+  - name: SANA2
+    protocol: https
+    host: www.natorisana.love
+    type: DEFAULT
+    layer: ""
+    soundLayer: /sounds
+    jsonLocation: ""
+    categorySupport: true
+
+  - name: HANERU
+    protocol: http
+    host: inabagumi.sakura.ne.jp
+    type: DEFAULT
+    layer: ""
+    soundLayer: ""
+    jsonLocation: ""
+    categorySupport: true
+
+  - name: USHIMI
+    protocol: http
+    host: ushiumi.ichiya-boshi.net
+    type: DEFAULT
+    layer: ""
+    soundLayer: ""
+    jsonLocation: ""
+    categorySupport: false
+
+  - name: MITO
+    protocol: http
+    host: tsukino-mito.extrem.ne.jp
+    type: DEFAULT
+    layer: ""
+    soundLayer: ""
+    jsonLocation: ""
+    categorySupport: true
+
+  - name: KENMOTCH
+    protocol: http
+    host: toukosuko.starfree.jp
+    type: DEFAULT
+    layer: ""
+    soundLayer: ""
+    jsonLocation: ""
+    categorySupport: false
+
+  - name: MAGURONA
+    protocol: http
+    host: magurona-button.sakura.ne.jp
+    type: JSON
+    layer: ""
+    soundLayer: ""
+    jsonLocation: /js/magurona_voice.json
+    categorySupport: true
+
+  - name: NOTE
+    protocol: https
+    host: note-button.herokuapp.com
+    type: JSON
+    layer: ""
+    soundLayer: ""
+    jsonLocation: /js/note_voice.json
+    categorySupport: true
+
+  - name: RIMUMAKI
+    protocol: https
+    host: rimumaki.clocknote.net
+    type: JSON
+    layer: ""
+    soundLayer: /sound
+    jsonLocation: /js/rimumaki.json
+    categorySupport: true
+
+  - name: IENAGA
+    protocol: http
+    host: mugimugigachikoi.sarashi.com
+    type: DEFAULT
+    layer: ""
+    soundLayer: ""
+    jsonLocation: ""
+    categorySupport: true
+
+  - name: SUZUYA
+    protocol: http
+    host: akikunsuki.starfree.jp
+    type: DEFAULT
+    layer: /button/
+    soundLayer: /resource/sounds
+    jsonLocation: ""
+    categorySupport: false
+
+  - name: KASUMI
+    protocol: http
+    host: ikasumi.ichiya-boshi.net
+    type: DEFAULT
+    layer: ""
+    soundLayer: /sounds
+    jsonLocation: ""
+    categorySupport: false
+
+  - name: KANAE
+    protocol: http
+    host: kanae.starfree.jp
+    type: JSON_ARRAY
+    layer: ""
+    soundLayer: /sounds
+    jsonLocation: /button_data.json
+    categorySupport: false
+
+  - name: KUZUHA
+    protocol: http
+    host: vampsasha.starfree.jp
+    type: JSON_ARRAY
+    layer: ""
+    soundLayer: /sounds
+    jsonLocation: /button_data.json
+    categorySupport: false
+
+  - name: RYUSHEN
+    protocol: https
+    host: ryushen-button.000webhostapp.com
+    type: DEFAULT
+    layer: ""
+    soundLayer: /mp3
+    jsonLocation: ""
+    categorySupport: false
+
+  - name: UDUKI
+    protocol: http
+    host: izzo.starfree.jp
+    type: DEFAULT
+    layer: ""
+    soundLayer: /voice
+    jsonLocation: ""
+    categorySupport: false
+
+  - name: TAKAMIYA
+    protocol: http
+    host: pianeko.xyz
+    type: DEFAULT
+    layer: /RionTakamiya/RionButton.html
+    soundLayer: /RionTakamiya
+    jsonLocation: ""
+    categorySupport: true
+
+  - name: CLEAIRE
+    protocol: http
+    host: cleairesan.starfree.jp
+    type: DEFAULT
+    layer: ""
+    soundLayer: ""
+    jsonLocation: ""
+    categorySupport: false
+
+  - name: DEBIRU
+    protocol: http
+    host: asrevali.sub.jp
+    type: DEFAULT
+    layer: /debirubutton.html
+    soundLayer: /debirusound
+    jsonLocation: ""
+    categorySupport: true
+
+  - name: UMIKA
+    protocol: http
+    host: onyankopbtn.html.xdomain.jp
+    type: DEFAULT
+    layer: ""
+    soundLayer: /sound
+    jsonLocation: ""
+    categorySupport: false
+
+  - name: TOMARI
+    protocol: https
+    host: tomaributton.azurewebsites.net
+    type: TOMARI_JSON
+    layer: ""
+    soundLayer: /sound
+    jsonLocation: /contents.json
+    categorySupport: true
+
+  - name: ICHIKA
+    protocol: http
+    host: souyaichika.love
+    type: ICHIKA_ARRAY
+    layer: ""
+    soundLayer: /content
+    jsonLocation: /edit/searchVoice.php?mode=all
+    categorySupport: false
+
+  - name: HINAKO
+    protocol: https
+    host: umorihinako.love
+    type: DEFAULT
+    layer: ""
+    soundLayer: /sounds
+    jsonLocation: ""
+    categorySupport: false
+
+  - name: MONI
+    protocol: http
+    host: amhikoushiki.php.xdomain.jp
+    type: DEFAULT
+    layer: /yoshimoti.php
+    soundLayer: ""
+    jsonLocation: ""
+    categorySupport: false
+
+  - name: KERIN
+    protocol: http
+    host: ymkmbutton.starfree.jp
+    type: DEFAULT
+    layer: ""
+    soundLayer: /sounds
+    jsonLocation: ""
+    categorySupport: false
