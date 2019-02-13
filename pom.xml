@@ -70,11 +70,6 @@
     </build>
 
     <distributionManagement>
-        <snapshotRepository>
-            <id>nafusoft</id>
-            <name>NafuSoft Repository</name>
-            <url>ftp://repo.nafusoft.net/snapshot</url>
-        </snapshotRepository>
         <repository>
             <id>nafusoft</id>
             <name>NafuSoft Repository</name>

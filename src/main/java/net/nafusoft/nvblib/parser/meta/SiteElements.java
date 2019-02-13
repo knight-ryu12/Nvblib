@@ -16,7 +16,7 @@
 
 package net.nafusoft.nvblib.parser.meta;
 
-import net.nafusoft.voicebutton.core.parser.meta.abs.Site;
+import net.nafusoft.nvblib.parser.meta.abs.Site;
 
 import java.util.*;
 
