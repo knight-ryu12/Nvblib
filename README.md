@@ -5,7 +5,7 @@ Button要素で構成されるHTMLサイトのsoundクラスに割り当てら�
 ## 使用方法
 ### 動作要項
 - Java 1.8 or latest
-- FFmpeg and FFprobe
+- ~~FFmpeg and FFprobe~~
 
 ### インストール
 ```
@@ -18,9 +18,9 @@ Button要素で構成されるHTMLサイトのsoundクラスに割り当てら�
 </repositories>
 <dependencies>
     <dependency>
-        <groupId>net.nafusoft</groupId>
+        <groupId>dev.pandasoft</groupId>
         <artifactId>Nvblib</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
+        <version>0.0.5-SNAPSHOT</version>
     </dependency>
 </dependencies>
 ```
@@ -37,7 +37,7 @@ Button要素で構成されるHTMLサイトのsoundクラスに割り当てら�
 
 ## LICENSE
 ```
-   Copyright 2019 NafuSoft
+   Copyright 2019 くまねこそふと
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.

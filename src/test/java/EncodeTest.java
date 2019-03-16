@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
+import dev.pandasoft.nvblib.audio.AudioEncoder;
+import dev.pandasoft.nvblib.audio.AudioQuality;
 import net.bramp.ffmpeg.FFmpeg;
 import net.bramp.ffmpeg.FFprobe;
-import net.nafusoft.nvblib.audio.AudioEncoder;
-import net.nafusoft.nvblib.audio.AudioQuality;
 
 import java.io.IOException;
 
@@ -40,7 +40,7 @@ public class EncodeTest {
         String target = args[2];
         String to = args[3];
         AudioEncoder audioEncoder = new AudioEncoder(ffmpeg, ffprobe);
-        System.out.println(audioEncoder.isEncodable(target));
+        System.out.println(audioEncoder.isEncodable(target, to));
         try {
             audioEncoder.encode(target, to, AudioQuality.MIDIAMHIGH, false);
         } catch (IOException e) {
