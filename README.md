@@ -11,16 +11,16 @@ Button要素で構成されるHTMLサイトのsoundクラスに割り当てら�
 ```
 <repositories>
     <repository>
-        <id>nafusoft</id>
-        <name>NafuSoft Repository</name>
-        <url>http://repo.nafusoft.net</url>
+        <id>pandasoft</id>
+        <name>PandaSoft Maven Repository</name>
+        <url>https://maven.pandasoft.dev</url>
     </repository>
 </repositories>
 <dependencies>
     <dependency>
         <groupId>dev.pandasoft</groupId>
         <artifactId>Nvblib</artifactId>
-        <version>0.0.5-SNAPSHOT</version>
+        <version>0.0.6-SNAPSHOT</version>
     </dependency>
 </dependencies>
 ```

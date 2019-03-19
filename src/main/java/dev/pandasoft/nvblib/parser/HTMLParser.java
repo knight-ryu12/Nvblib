@@ -22,6 +22,7 @@ import dev.pandasoft.nvblib.utils.URLUtil;
 import dev.pandasoft.nvblib.utils.WordUtil;
 import dev.pandasoft.nvblib.voice.IVoice;
 import dev.pandasoft.nvblib.voice.Voice;
+import lombok.extern.slf4j.Slf4j;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
@@ -31,10 +32,12 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
+@Slf4j
 public class HTMLParser extends Parser {
 
     public HTMLParser(Site site) {
         super(site);
+        log.trace("This parser was called by {}.", site.getName());
     }
 
     @Override
@@ -49,6 +52,7 @@ public class HTMLParser extends Parser {
                 url += getSite().getLayer();
             document = Jsoup.connect(url).get();
         } catch (IOException e) {
+            log.trace("Failed to communicate data with the site.", e);
             return voices;
         }
 
@@ -71,6 +75,7 @@ public class HTMLParser extends Parser {
                 voices.add(voice);
             }
         }
+        log.trace("Content loaded. {}", voices.toString());
         return voices;
     }
 }

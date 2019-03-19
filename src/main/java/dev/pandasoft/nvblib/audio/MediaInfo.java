@@ -38,15 +38,15 @@ public class MediaInfo {
         return format.filename;
     }
 
-    public String getFormat_name() {
+    public String getFormat() {
         return format.format_name;
     }
 
-    public String getCodec_name() {
+    public String getCodecName() {
         return stream.codec_name;
     }
 
-    public int getSample_rate() {
+    public int getSampleRate() {
         return stream.sample_rate;
     }
 
@@ -58,13 +58,13 @@ public class MediaInfo {
         return ChannelLayout.valueOf(stream.channel_layout);
     }
 
-    public long getBit_rate() {
+    public long getBitRate() {
         if (stream.bit_rate == 0)
             return format.bit_rate;
         return stream.bit_rate;
     }
 
-    public long getFile_size() {
+    public long getFileSize() {
         return format.size;
     }
 }

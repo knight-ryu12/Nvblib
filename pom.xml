@@ -22,7 +22,7 @@
 
     <groupId>dev.pandasoft</groupId>
     <artifactId>Nvblib</artifactId>
-    <version>0.0.5-SNAPSHOT</version>
+    <version>0.0.6-SNAPSHOT</version>
 
     <build>
         <plugins>
@@ -71,9 +71,9 @@
 
     <distributionManagement>
         <repository>
-            <id>nafusoft</id>
-            <name>NafuSoft Repository</name>
-            <url>ftp://repo.nafusoft.net/</url>
+            <id>pandasoft</id>
+            <name>PandaSoft Maven Repository</name>
+            <url>ftp://maven.pandasoft.dev/</url>
             <uniqueVersion>true</uniqueVersion>
         </repository>
     </distributionManagement>

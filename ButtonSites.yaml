@@ -24,7 +24,7 @@ sites:
     layer: ""
     soundLayer: ""
     jsonLocation: ""
-    categorySupport: true
+    categorySupport: false
 
   - name: USHIMI
     protocol: http
@@ -125,6 +125,15 @@ sites:
     jsonLocation: /button_data.json
     categorySupport: false
 
+  - name: KUZUHA2
+    protocol: http
+    host: 928button.tudura.com
+    type: DEFAULT
+    layer: ""
+    soundLayer: ""
+    jsonLocation: ""
+    categorySupport: false
+
   - name: RYUSHEN
     protocol: https
     host: ryushen-button.000webhostapp.com
@@ -169,6 +178,15 @@ sites:
     soundLayer: /debirusound
     jsonLocation: ""
     categorySupport: true
+
+  - name: DEBIRION
+    protocol: http
+    host: asrevali.sub.jp
+    type: DEFAULT
+    layer: /debirionbutton.html
+    soundLayer: /debirionsound
+    jsonLocation: ""
+    categorySupport: false
 
   - name: UMIKA
     protocol: http

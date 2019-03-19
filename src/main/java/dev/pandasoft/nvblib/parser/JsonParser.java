@@ -26,6 +26,7 @@ import dev.pandasoft.nvblib.utils.URLUtil;
 import dev.pandasoft.nvblib.utils.WordUtil;
 import dev.pandasoft.nvblib.voice.IVoice;
 import dev.pandasoft.nvblib.voice.Voice;
+import lombok.extern.slf4j.Slf4j;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -35,10 +36,12 @@ import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.List;
 
+@Slf4j
 public class JsonParser extends Parser {
 
     public JsonParser(Site site) {
         super(site);
+        log.trace("This parser was called by {}.", site.getName());
     }
 
     @Override
@@ -51,6 +54,7 @@ public class JsonParser extends Parser {
                 new URL(getSite().getStringURL() + getSite().getJsonLocation()).openStream(), StandardCharsets.UTF_8))) {
             jsonObj = new Gson().fromJson(stream, JsonObject.class);
         } catch (IOException e) {
+            log.trace("Failed to communicate data with the site.", e);
             return voicesList;
         }
 
@@ -77,6 +81,7 @@ public class JsonParser extends Parser {
                 voicesList.add(voice);
             }
         }
+        log.trace("Content loaded. {}", voicesList.toString());
         return voicesList;
     }
 }

@@ -26,6 +26,7 @@ import dev.pandasoft.nvblib.utils.URLUtil;
 import dev.pandasoft.nvblib.utils.WordUtil;
 import dev.pandasoft.nvblib.voice.IVoice;
 import dev.pandasoft.nvblib.voice.Voice;
+import lombok.extern.slf4j.Slf4j;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -35,10 +36,12 @@ import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.List;
 
+@Slf4j
 public class IchikaArrayParser extends Parser {
 
     public IchikaArrayParser(Site site) {
         super(site);
+        log.trace("This parser was called by {}.", site.getName());
     }
 
     @Override
@@ -51,6 +54,7 @@ public class IchikaArrayParser extends Parser {
                 new URL(getSite().getStringURL() + getSite().getJsonLocation()).openStream(), StandardCharsets.UTF_8))) {
             jsonAry = new Gson().fromJson(stream, JsonArray.class);
         } catch (IOException e) {
+            log.trace("Failed to communicate data with the site.", e);
             return voices;
         }
 
@@ -67,6 +71,7 @@ public class IchikaArrayParser extends Parser {
             Voice voice = new Voice(null, getSite(), title, null, WordUtil.generateWord(title), file, urlStr);
             voices.add(voice);
         }
+        log.trace("Content loaded. {}", voices.toString());
         return voices;
     }
 }

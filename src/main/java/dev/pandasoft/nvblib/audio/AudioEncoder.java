@@ -47,7 +47,7 @@ public class AudioEncoder {
 
         try {
             MediaInfo info = infoManager.getMediaInfo(input);
-            if (info == null || info.getCodec_name().equals("opus"))
+            if (info == null || info.getCodecName().equals("opus"))
                 return false;
         } catch (IOException e) {
             log.error("Could not retrieve the information of the specified file.", e);
